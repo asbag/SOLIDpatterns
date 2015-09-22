@@ -1,0 +1,48 @@
+<?php
+/**
+ * @author David Mezquíriz Osés
+ * Single responsability principle
+ * A class should have only one reason to change.
+ */
+
+
+/*
+class Book {
+
+	function getTitle() {
+		return "A Great Book";
+	}
+
+	function getAuthor() {
+		return "John Doe";
+	}
+
+	function turnPage() {
+		// pointer to next page
+	}
+
+	function printCurrentPage() {
+		echo "current page content";
+	}
+}
+*/
+ 
+
+ class Book {
+ 	function turnPage() {
+ 		// pointer to next page
+ 	}
+ 	
+ 	function printCurrentPage() {
+ 		echo "current page content";
+ 	}
+ }
+ 
+ 
+ class Printer {
+ 	function turnPage() {
+ 		//pointer to next Page
+ 	}
+ 	
+ 	
+ }

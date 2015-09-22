@@ -1,0 +1,6 @@
+<?php
+/**
+ * @author David Mezquíriz Osés
+ * Single responsability principle
+ * A class should have only one reason to change.
+ */

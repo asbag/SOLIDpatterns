@@ -1,0 +1,19 @@
+<?php
+/**
+ * @author David Mezquíriz.
+ * 
+ */
+
+
+
+class Employee {
+	public function calculateSalary () {
+		
+	}
+}
+
+class BasicEmployeeSalaryCalculator {
+	public function getSalary (Employee $employee) {
+		
+	}
+}

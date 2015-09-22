@@ -1,0 +1,19 @@
+<?php
+/**
+ * @author David Mezquíriz.
+ * Example of one of the main methods of Clean Code
+ */
+
+
+
+class Employee {
+	public function calculateSalary (EmployeeSalaryCalculator $employeeSalaryCalculator) {
+			return $employeeSalaryCalculator.getSalary($this);
+	}
+}
+
+class BasicEmployeeSalaryCalculator {
+	public function getSalary (Employee $employee) {
+		
+	}
+}

@@ -1,0 +1,18 @@
+<?php
+/**
+ * @author David Mezquíriz Osés
+ * 
+ * public class Sql {
+	public Sql (String table, Column[] columns) {...}
+	public String insert (Object[] fields) {...}
+	public String findByKey (String keyColumn, String keyValue) {...}
+	public String select (Criteria criteria) {...}
+}
+
+ * If a new method is needed such as update one we loose SRP and OCP principles
+ */
+
+abstract class Sql {
+	public function Sql (string $table, array $columns);
+	public function abstract generate ();
+}
